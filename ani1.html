@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #box {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            position: absolute;
+            left: 200px;
+            transition: left 2s, transform 1s, background-color 3s;
+
+        }
+
+        #box:hover {
+            transform: scale(2);
+            background-color: green;
+            left: 0px;
+        }
+
+        button {
+            border-radius: 5px;
+            border: none;
+            background-color: blueviolet;
+            color: white;
+            padding: 8px;
+            box-shadow: 3px 3px 5px black;
+            transition: background-color 1.5s, box-shadow 2.5s;
+        }
+
+        button:hover {
+            background-color: rgb(174, 112, 232);
+
+
+            box-shadow: 3px 5px 5px black;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="box">text</div>
+    <button>Hallo OMM</button>
+</body>
+
+</html>
