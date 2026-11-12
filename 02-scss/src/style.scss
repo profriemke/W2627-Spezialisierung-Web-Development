@@ -1,0 +1,25 @@
+$text-color: red;
+$standard-padding: 10px;
+$sizes: 10, 20, 50, 100;
+
+h1 {
+    color: $text-color;
+    padding: $standard-padding;
+}
+
+.box{
+    color: $text-color;
+    padding: $standard-padding;
+    .box__title{
+        font-size: 20px;
+    }
+}
+
+
+
+@each $size in $sizes {
+  .div-#{$size} {
+    height: $size * 1px;
+    width: $size * 1px;
+  }
+}

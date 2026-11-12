@@ -1,0 +1,97 @@
+
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Architekturkarte</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 20px;
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+    }
+
+    .card {
+      width: 175px;
+      overflow: hidden;
+      border-radius: 7px;
+      background: white;
+      box-shadow: 0 2px 5px #0002;
+    }
+
+    .card img {
+      display: block;
+      width: 100%;
+      height: 262px;
+      object-fit: cover;
+    }
+
+    .card-content {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 10px;
+      padding: 10px;
+    }
+
+    .category {
+      padding: 3px 5px;
+      color: #2563eb;
+      background: #dbeafe;
+      font-size: 9px;
+      border-radius: 3px;
+    }
+
+    .card h2 {
+      margin: 0;
+      font-size: 12px;
+      color: #334155;
+    }
+
+    .card p {
+      margin: 0;
+      font-size: 9px;
+      line-height: 1.4;
+      color: #64748b;
+    }
+
+    .card a {
+      font-size: 9px;
+      font-weight: bold;
+      color: #2563eb;
+      text-decoration: none;
+    }
+
+    .card a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <article class="card">
+    <img src="architektur.jpg"
+         alt="Modernes Gebäude mit Betonstützen und Außenanlage">
+
+    <div class="card-content">
+      <span class="category">Architektur</span>
+
+      <h2>Räume neu denken</h2>
+
+      <p>
+        Moderne Architektur verbindet klare
+        Formen und natürliche Materialien.
+      </p>
+
+      <a href="#">Artikel lesen →</a>
+    </div>
+  </article>
+
+</body>
+</html>
