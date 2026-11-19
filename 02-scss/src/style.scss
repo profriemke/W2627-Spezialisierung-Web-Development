@@ -3,16 +3,17 @@ $standard-padding: 10px;
 $sizes: 10, 20, 50, 100;
 
 h1 {
-    color: $text-color;
-    padding: $standard-padding;
+  color: $text-color;
+  padding: $standard-padding;
 }
 
-.box{
-    color: $text-color;
-    padding: $standard-padding;
-    .box__title{
-        font-size: 20px;
-    }
+.box {
+  color: $text-color;
+  padding: $standard-padding;
+
+  .box__title {
+    font-size: 20px;
+  }
 }
 
 
